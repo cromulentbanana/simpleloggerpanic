@@ -1,0 +1,14 @@
+[dependencies]
+actix-web = {version="3.2.0", features=["rustls"]}
+chrono = "0.4.19"
+log = "0.4.14"
+serde = "1.0.117"
+serde_json = "1.0.68"
+simple_logger = "=1.16.0"
+structopt = "0.3.21"
+
+[package]
+authors = ["Dan Levin <dan@badpacket.in>"]
+edition = "2021"
+name = "simpleloggerpanic"
+version = "0.1.0"
